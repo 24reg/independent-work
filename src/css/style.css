@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Handjet', cursive;
+font-family: 'Lora', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'REM', sans-serif;
+}
+
+#par{
+    color: red;
+}
+
+/* div{
+    border: 1px solid black;
+} */
+
+.container {
+    width: 100vh;
+    height: auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* .login {
+    text-align: right;
+} */
+
+.container{
+    height: 100vh;
+}
+
+/* .block_1{
+    width: 100%;
+    height: auto;
+} */
