@@ -16,10 +16,12 @@
     <title>MAROON</title>
 </head>
 <!-- ***************************************************************HEADER*************************************************************** -->
-<body>    
+<body>
+
+            <!-- ***************************************************NAVBAR*************************************************** -->    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">MAROON</a>
+          <a class="navbar-brand" href="#"><img src="./img/MAROON.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,16 +39,15 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Контакты</a>
               </li>
-              <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Личный кабинет</a></li>
-                  <li><a class="dropdown-item" href="#">Корзина</a></li>
-                </ul>
-              </li> -->
             </ul>
+            <form class="d-flex" role="login"></form>  
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="login"><img src="./icons/personal account.png" alt=""></li>
+              </ul>  
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="login"><img src="./icons/purchase.png" alt=""></li>
+              </ul>                          
+            </form> 
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Поиск</button>
@@ -54,9 +55,20 @@
           </div>
         </div>
     </nav>
-    <!-- ****************************************************************MAIN**************************************************************** -->
+    <!-- ****************************************************************CARD**************************************************************** -->
     <main>
+      <br>
+      <br>
+      <br>
+      <div class="container">
+        <div class="block block_catalog">
+          <h3>Каталог</h3>
+          <button id="filter"><h5>ФИЛЬТР</h5></button>
+        </div>
       <div>
+        <br>
+        <br>
+        <br>        
         <div class="d-flex justify-content-evenly">
         <div class="card" style="width: 18rem;">
             <img src="./img/Rectangle 43.png" class="card-img-top" alt="...">
@@ -70,7 +82,7 @@
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">О товаре</a>
-              <a href="#" class="card-link">Добавить в корзину</a>
+              <a href="#" class="card-link">В корзину</a>
             </div>
           </div>
 
@@ -95,7 +107,7 @@
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">О товаре</a>
-              <a href="#" class="card-link">Добавить в корзину</a>
+              <a href="#" class="card-link">В корзину</a>
             </div>
           </div>
 
@@ -120,7 +132,7 @@
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">О товаре</a>
-              <a href="#" class="card-link">Добавить в корзину</a>
+              <a href="#" class="card-link">В корзину</a>
             </div>
           </div>
 
@@ -145,7 +157,7 @@
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">О товаре</a>
-              <a href="#" class="card-link">Добавить в корзину</a>
+              <a href="#" class="card-link">В корзину</a>
             </div>
           </div>
         </div>
@@ -177,7 +189,7 @@
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">О товаре</a>
-              <a href="#" class="card-link">Добавить в корзину</a>
+              <a href="#" class="card-link">В корзину</a>
             </div>
           </div>
 
@@ -202,7 +214,7 @@
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">О товаре</a>
-              <a href="#" class="card-link">Добавить в корзину</a>
+              <a href="#" class="card-link">В корзину</a>
             </div>
           </div>
 
@@ -227,7 +239,7 @@
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">О товаре</a>
-              <a href="#" class="card-link">Добавить в корзину</a>
+              <a href="#" class="card-link">В корзину</a>
             </div>
           </div>
 
@@ -252,7 +264,7 @@
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">О товаре</a>
-              <a href="#" class="card-link">Добавить в корзину</a>
+              <a href="#" class="card-link">В корзину</a>
             </div>
           </div>
         </div>
@@ -284,7 +296,7 @@
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">О товаре</a>
-              <a href="#" class="card-link">Добавить в корзину</a>
+              <a href="#" class="card-link">В корзину</a>
             </div>
           </div>
 
@@ -309,7 +321,7 @@
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">О товаре</a>
-              <a href="#" class="card-link">Добавить в корзину</a>
+              <a href="#" class="card-link">В корзину</a>
             </div>
           </div>
 
@@ -334,7 +346,7 @@
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">О товаре</a>
-              <a href="#" class="card-link">Добавить в корзину</a>
+              <a href="#" class="card-link">В корзину</a>
             </div>
           </div>
 
@@ -359,20 +371,112 @@
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">О товаре</a>
-              <a href="#" class="card-link">Добавить в корзину</a>
+              <a href="#" class="card-link">В корзину</a>
             </div>
           </div>
-        </div>
+        <!-- </div>
          
-          <!-- <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;">
             <img src="./img/Bath Bomb - Product-3 2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Earth 90 ₽</h5>
               <p class="card-text">юомбочка для ванны 20g</p>
               <a href="#" class="btn btn-primary">Купить</a>
             </div>
-          </div> -->
-        </div>        
-    </main>
+          </div>
+        </div>        -->
+    </div>        
+    </main>    
+    <br>
+    <br>
+    <br>
+    <br>
+                                          <!-- Экспериментируем с наполнением блочными элементами -->
+    <div class="main">
+      <div class="container">
+        
+      </div>
+    </div>
+                                          
+    <!-- *************************************************images for filling the page******************************************************** -->
+    <div class="container"><img src="./img/Group 26.png" alt=""></div>
+    <br>
+    <br>
+    <br>
+    <div class="container"><img src="./img/Group 10.png" alt=""></div>
+    <br>
+    <br>
+    <br>
+    <div class="container"><img src="./img/contacts.png" alt=""></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- *******************************************************Navbar Fixed************************************************************* -->
+    <nav class="navbar fixed-bottom bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MAROON</a>
+        <a href="twitter"><img src="./icons/Twitter.png" alt=""></a>
+        <a href="facebook"><img src="./icons/Facebook.png" alt=""></a>
+        <a href="instagramm"><img src="./icons/Instagram.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" id="par">Каталог</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Магазины</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Поиск</button>              
+          </form>          
+        </div>
+      </div>
+    </nav>
+    <!-- *******************************************************Navbar expand************************************************************* -->
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MAROON</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="par">Каталог</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Поиск</button>              
+          </form>
+          
+        </div>
+      </div>
+    </nav> -->
 </body>
 </html>
